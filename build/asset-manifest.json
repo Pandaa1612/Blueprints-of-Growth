@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blueprints-of-growth/static/css/main.a31dda69.css",
+    "main.js": "/blueprints-of-growth/static/js/main.59f08d16.js",
+    "index.html": "/blueprints-of-growth/index.html",
+    "main.a31dda69.css.map": "/blueprints-of-growth/static/css/main.a31dda69.css.map",
+    "main.59f08d16.js.map": "/blueprints-of-growth/static/js/main.59f08d16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a31dda69.css",
+    "static/js/main.59f08d16.js"
+  ]
+}
