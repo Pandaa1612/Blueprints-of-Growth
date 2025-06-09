@@ -20,12 +20,12 @@ function Masters() {
       </p>
 
       <p className="text-lg leading-relaxed mb-6">
-        <span className="block text-xl font-bold text-blue-300 mb-1">Graduate Assistant – Office of Graduate and International Student Life</span>
+        <span className="block text-xl font-bold text-blue-300 mb-1">Graduate Assistant | HR & OD Intern – Office of Graduate and International Student Life</span>
         Since being hired in my very first semester, I’ve led onboarding for 500+ international and graduate students, created internal training guides, facilitated cultural programs, and helped launch major events like Winter Ball, Comedy Night, Glow Party, Trivia Nights, and the Disney Spring Break Trip. My GA experience taught me how to design programs that are inclusive, intentional, and joyful , while also developing my operational and peer support skills.
       </p>
 
       <p className="text-lg leading-relaxed mb-6">
-        <span className="block text-xl font-bold text-blue-300 mb-1">Head of Relations – SHRM | HR & OD Intern – Office of Graduate and International Student Life</span>
+        <span className="block text-xl font-bold text-blue-300 mb-1">Head of Relations – SHRM </span>
         In my leadership role at SHRM, I facilitated speaker panels, built alumni networks, and co-hosted professional development events. As an HR & Organizational Development Intern at Office of Graduate and International Student Life, I focused on onboarding redesign, psychological safety training, and performance reflections. My goal has always been to help employees feel seen while helping departments run smarter and more sustainably.
       </p>
 
