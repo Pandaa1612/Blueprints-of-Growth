@@ -1,35 +1,67 @@
 import React from "react";
-import { FaHome } from "react-icons/fa";
+import { FaChartLine, FaTools, FaUsers, FaLightbulb, FaBook } from "react-icons/fa";
 
-function Home() {
-  const heroImage = "/grad6.JPG";
-
+function HRPortfolio() {
   return (
     <div className="p-12">
-      <h2 className="text-3xl font-bold mb-10 text-blue-400 flex items-center gap-2">
-        <FaHome /> Welcome to Blueprints of Growth
+      <h2 className="text-3xl font-bold mb-8 text-blue-400 flex items-center gap-2">
+        <FaBook /> HR Portfolio Highlights
       </h2>
 
-      <img
-        src={heroImage}
-        alt="Hero"
-        className="rounded-2xl shadow-lg mb-8 w-full max-h-[500px] object-cover"
+      <img 
+        src={`${process.env.PUBLIC_URL}/assets/HR.jpg`} 
+        alt="HR Portfolio work" 
+        className="mx-auto mb-10 rounded-lg shadow-md w-full max-w-md" 
       />
 
-      <section className="mb-12">
-        <h3 className="text-2xl font-bold text-blue-300 mb-4">About Me</h3>
-        <p className="text-lg leading-relaxed">
-          My name is Mahek Bhagchandani, and I’m currently pursuing my Master’s in Industrial and Organizational Psychology at the University of New Haven. Since 2019, my journey has been fueled by a desire to create meaningful impact through community, leadership, and human-centered strategy. I’m a South Asian woman navigating spaces that haven’t always been built for me, which is exactly why I work to change that.
-        </p>
-        <p className="text-lg leading-relaxed mt-4">
-          I’ve always been someone who leads through empathy and intentionality, not by trying to speak over others, but by making space for them. From founding Desi Chargers to showcase and preserve South Asian culture, to being appointed a Graduate Assistant during my very first semester, my trajectory has always reflected my values. I believe leadership is about creating psychological safety, designing inclusive systems, and showing up consistently even when it’s hard.
-        </p>
-        <p className="text-lg leading-relaxed mt-4">
-          My work spans HR, event planning, peer mentorship, academic research, and digital innovation. Whether I’m facilitating a training session, building an onboarding program, or helping international students feel at home, my goal is always the same: help people feel seen and supported while creating systems that work better for everyone. I see this website as a living archive of that mission.
-        </p>
-      </section>
+      <div className="space-y-10 text-lg leading-relaxed">
+        <div>
+          <h3 className="text-xl font-semibold text-blue-300 flex items-center gap-2">
+            <FaUsers /> Recruitment & Hiring
+          </h3>
+          <p>
+            I created inclusive job descriptions, detailed interview rubrics, and robust onboarding frameworks for student leader hiring at the Office of Graduate & International Student Life. I redesigned selection guides using NACE competencies and DEI best practices to reduce bias and increase diverse applicant success rates. My work contributed to more transparent, fair, and efficient hiring experiences for student leaders.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-blue-300 flex items-center gap-2">
+            <FaTools /> Training & Development
+          </h3>
+          <p>
+            I led the onboarding and training for Graduate Assistants and student volunteers through peer-based mentoring, hands-on simulations, and visual documentation like slide decks and workflow charts. My training materials emphasized clarity, accessibility, and relevance, which directly improved performance feedback and onboarding satisfaction scores.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-blue-300 flex items-center gap-2">
+            <FaChartLine /> Employee Experience & Engagement
+          </h3>
+          <p>
+            I designed and analyzed pulse surveys to track engagement and communication needs. Based on results, I collaborated with pro staff to address burnout, improve team meetings, and develop recognition systems. One outcome was a feedback wall initiative, which increased peer acknowledgment and built team morale.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-blue-300 flex items-center gap-2">
+            <FaLightbulb /> Research & Analytics
+          </h3>
+          <p>
+            In a research project, I used the MLQ and JSS scales to examine how leadership styles impact job satisfaction among Gen Z student employees. We found that transformational leadership ,  especially individual consideration and idealized influence ,  positively influenced satisfaction and motivation. I co-designed the surveys, conducted analysis, and helped translate our findings into campus strategies.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-blue-300 flex items-center gap-2">
+            <FaLightbulb /> Systems Thinking & Innovation
+          </h3>
+          <p>
+            I created a concept called ThriveLocal ,  a digital platform linking relocated employees and students with local wellness vendors and cultural spaces. I prototyped a minimal app, mapped user journeys, and drafted a full-scale business model with marketing and financial strategies. The project helped me connect HR knowledge to entrepreneurship and practical problem-solving.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Home;
+export default HRPortfolio;

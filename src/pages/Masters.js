@@ -7,7 +7,12 @@ function Masters() {
       <h2 className="text-3xl font-bold mb-6 text-blue-400 flex items-center gap-2">
         <FaUserGraduate /> Master's Journey
       </h2>
-      <img src="/masters.jpeg" alt="Master's Experience" className="mx-auto mb-6 rounded-lg shadow-md w-full max-w-sm" />
+
+      <img 
+        src={`${process.env.PUBLIC_URL}/assets/masters.jpeg`} 
+        alt="Master's Experience" 
+        className="mx-auto mb-6 rounded-lg shadow-md w-full max-w-sm" 
+      />
 
       <p className="text-lg leading-relaxed mb-6">
         <span className="block text-xl font-bold text-blue-300 mb-1">Founder and President – Desi Chargers</span>
