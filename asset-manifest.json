@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Blueprints-of-Growth/static/css/main.fff62a8e.css",
-    "main.js": "/Blueprints-of-Growth/static/js/main.412c682e.js",
+    "main.js": "/Blueprints-of-Growth/static/js/main.87049ec3.js",
     "index.html": "/Blueprints-of-Growth/index.html",
     "main.fff62a8e.css.map": "/Blueprints-of-Growth/static/css/main.fff62a8e.css.map",
-    "main.412c682e.js.map": "/Blueprints-of-Growth/static/js/main.412c682e.js.map"
+    "main.87049ec3.js.map": "/Blueprints-of-Growth/static/js/main.87049ec3.js.map"
   },
   "entrypoints": [
     "static/css/main.fff62a8e.css",
-    "static/js/main.412c682e.js"
+    "static/js/main.87049ec3.js"
   ]
 }
